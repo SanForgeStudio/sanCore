@@ -7,7 +7,7 @@
 
 
 
-# sanOS Core
+# SanOS Core
 
 <br/>
 <br/>
