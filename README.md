@@ -5,7 +5,6 @@
 </div>
 
 #
-
 <br/>
 <br/>
 SanCore stands as an independent and robust operating system, serving as the foundational backbone for streamlined computing experiences. Rooted in the essence of simplicity and efficiency, SanCore is a self-contained OS that offers a unique command-based environment.
