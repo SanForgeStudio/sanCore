@@ -1,0 +1,10 @@
+C:\Users\Sander\Desktop\sanCore\sanCore\bin\Debug\netcoreapp2.0\cosmos\sanCore.deps.json
+C:\Users\Sander\Desktop\sanCore\sanCore\bin\Debug\netcoreapp2.0\cosmos\sanCore.dll
+C:\Users\Sander\Desktop\sanCore\sanCore\bin\Debug\netcoreapp2.0\cosmos\sanCore.pdb
+C:\Users\Sander\Desktop\sanCore\sanCore\obj\Debug\netcoreapp2.0\cosmos\sanCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sander\Desktop\sanCore\sanCore\obj\Debug\netcoreapp2.0\cosmos\sanCore.AssemblyInfoInputs.cache
+C:\Users\Sander\Desktop\sanCore\sanCore\obj\Debug\netcoreapp2.0\cosmos\sanCore.AssemblyInfo.cs
+C:\Users\Sander\Desktop\sanCore\sanCore\obj\Debug\netcoreapp2.0\cosmos\sanCore.csproj.CoreCompileInputs.cache
+C:\Users\Sander\Desktop\sanCore\sanCore\obj\Debug\netcoreapp2.0\cosmos\sanCore.dll
+C:\Users\Sander\Desktop\sanCore\sanCore\obj\Debug\netcoreapp2.0\cosmos\sanCore.pdb
+C:\Users\Sander\Desktop\sanCore\sanCore\obj\Debug\netcoreapp2.0\cosmos\sanCore.csproj.AssemblyReference.cache
