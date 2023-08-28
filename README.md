@@ -16,11 +16,8 @@ The sanOS Core is the operating systems core terminal/prompt system that sanOS w
 
 <br/>
 
-<p align="center">
-  <a href="">Releases</a> 
 
 
 ## Dependencies
 - [Cosmos](https://github.com/Cosmos)
-- 
 
