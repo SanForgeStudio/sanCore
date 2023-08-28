@@ -16,11 +16,6 @@ Embracing its role as a lightweight yet potent operating system, SanCore has a m
 <br/>
 
 
-## History
-
-
-
-
 ## Features
 
 Here are a bunch of features that currently reside in sanCore.
