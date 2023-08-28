@@ -1,18 +1,16 @@
 <html>
   
 <div align="center">
-  <img alt="kzx" src="https://github.com/GDS-Sander/sanOS-Core/assets/97965051/7e3d801a-a70d-4700-9146-57d43e3359f5" width="200" />
+  <img alt="sanCore" src="https://github.com/GDS-Sander/sanOS-Core/assets/97965051/f5933780-0263-41fb-95ea-4c82c68c13e1" width="200" />
 </div>
 
 
-
-
-# SanOS Core
+# SanCore
 
 <br/>
 <br/>
 
-The sanOS Core is the operating systems core terminal/prompt system that sanOS was built around. command based operating system forms the heart of sanOS, enabling users to control and navigate the system through text-based commands. This lightweight and versatile approach streamlines tasks, promotes efficient resource use, and empowers users to directly manage system elements. Command modules offer diverse functionalities, fostering automation and scripting. Ideal for both novice users and system experts, the core command-based OS provides a dynamic and efficient environment for interacting with sanOS.
+SanCore is the core system of the operating systems sanOS, SanOS uses the sanCore terminal/prompt systems for sanOS to properly work. SanCore is a command based operating system on its own, wich forms the heart of sanOS wich is more advanced version of sanCore which includes a GUI and such, sanCore Enables users to control and navigate the system through text-based commands. This lightweight and versatile approach streamlines tasks, promotes efficient resource use, and empowers users to directly manage system elements. Command modules offer diverse functionalities, fostering automation and scripting. Ideal for both novice users and system experts, the core command-based OS provides a dynamic and efficient environment for interacting with sanOS.
 
 <br/>
 
