@@ -1,6 +1,8 @@
 <html>
   
-<img align="center" alt="kzx" src="https://github.com/GDS-Sander/sanOS-Core/assets/97965051/7e3d801a-a70d-4700-9146-57d43e3359f5" width="200" style="vertical-align:top" />
+<div align="center">
+  <img alt="kzx" src="https://github.com/GDS-Sander/sanOS-Core/assets/97965051/7e3d801a-a70d-4700-9146-57d43e3359f5" width="200" />
+</div>
 
 
 
