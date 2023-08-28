@@ -9,14 +9,53 @@
 <br/>
 <b>SanCore</b> stands as an independent and robust operating system, serving as the foundational backbone for streamlined computing experiences. Rooted in the essence of simplicity and efficiency, SanCore is a self-contained OS that offers a unique command-based environment.
 
-At its core, SanCore embodies the essence of a command-driven system. Leveraging concise text-based commands, users navigate, manage, and control various system aspects with precision. This elegant approach optimizes resource utilization and empowers users to take direct control of their computing tasks.
+SanCore embodies the essence of a command driven system. Leveraging concise text based commands, users navigate, manage, and control various system aspects with precision. This elegant approach optimizes resource utilization and empowers users to take direct control of their computing tasks.
 
 Embracing its role as a lightweight yet potent operating system, SanCore has a modular design of command functionalities.
 
 <br/>
 
 
+## History
+
+
+
+
+## Features
+
+Here are a bunch of features that currently reside in sanCore.
+
+- **Command Line Interface (CLI):** Execute various commands to interact with the operating system, manage files and directories, and perform system operations.
+
+- **Filesystem Navigation:** Use commands like `ls` to list directory contents, `cd` to navigate directories, and manage files and directories with `mkdir` and `rm`.
+
+- **Text File Manipulation:** Utilize commands such as `cat`, `write`, and `writeline` for reading, writing, and modifying text files.
+
+- **Console Customization:** Clear the console using `clear` and customize the console theme with colors.
+
+- **Information Display:** Retrieve system details with the `info` command, including OS version, memory usage, and drive sizes.
+
+- **System Operations:** Perform actions like shutting down and rebooting using `shutdown` and `reboot`.
+
+- **Beep Command:** Generate sounds of specific frequencies with `beep` for notifications.
+
+- **Interactive Help:** Access help with `help` for command information.
+
+- **Admin Access:** Elevate privileges using `adminaccess` for administrative functions such as accessing more network systems.
+
+- **AI Interaction:** Engage with an simple AI using `AI` for responses to queries.
+
+- **Error Handling:** Receive user friendly error messages.
+
+- **Efficient File Management:** Copy, move, and manage files effortlessly.
+
+- **User Friendly Terminal:** Interact with an intuitive text based environment.
+
+
+## Media
+
+
 
 ## Dependencies
 - [Cosmos](https://github.com/Cosmos)
-
+- OpenAI (WIP)
