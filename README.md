@@ -6,7 +6,6 @@
 
 #
 <br/>
-<br/>
 SanCore stands as an independent and robust operating system, serving as the foundational backbone for streamlined computing experiences. Rooted in the essence of simplicity and efficiency, SanCore is a self-contained OS that offers a unique command-based environment.
 
 At its core, SanCore embodies the essence of a command-driven system. Leveraging concise text-based commands, users navigate, manage, and control various system aspects with precision. This elegant approach optimizes resource utilization and empowers users to take direct control of their computing tasks.
