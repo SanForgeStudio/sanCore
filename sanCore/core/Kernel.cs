@@ -110,9 +110,8 @@ namespace sanCore
             Console.WriteLine("   :#@@%*=-:.. ...:-=+*#@@@@#+===*@%=   ");
             Console.WriteLine("    -*-                  .=*%@@@@@#=.   ");
             Console.WriteLine("                              ...      ");
-            WaitMS(4000); // Delay
             BootMessage(); // Display booting message
-            WaitMS(4000); // Delay
+            WaitMS(4000); // Delay for system to load
 
         }
 

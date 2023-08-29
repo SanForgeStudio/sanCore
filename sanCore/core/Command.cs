@@ -22,13 +22,20 @@ using System.Collections.Generic;
 using Sys = Cosmos.System;
 using System.IO;
 using System.Net.NetworkInformation;
+using sanCore.Commands;
+using System.Net.Sockets;
+
+
 
 namespace sanCore
 {
     class Command
     {
 
-    private static ConsoleColor themecolor;
+        
+
+
+        private static ConsoleColor themecolor;
 
 
     public static void AcceptCmd()
@@ -46,6 +53,8 @@ namespace sanCore
 
 
                 var input = Console.ReadLine();
+
+
                 string cmd = input.Split(" ")[0];
                 switch (cmd)
                 {
@@ -57,6 +66,27 @@ namespace sanCore
                         break;
 
 
+                    case "random":
+                        if (input.Contains(" "))
+                        {
+                            string args = input.Substring(input.IndexOf(" ") + 1);
+                            RandomNumberCommand.Execute(args);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Usage: random <min> <max>");
+                        }
+                        break;
+
+                    case "datetime":
+                        DateTime currentDateTime = DateTime.Now;
+                        Console.WriteLine($"Current Date and Time: {currentDateTime}");
+                        break;
+
+
+                    case "clear":
+                        Console.Clear();
+                        break;
 
                     case "ls":
                         string[] dirDirectories = Directory.GetDirectories(Directory.GetCurrentDirectory());
@@ -203,9 +233,7 @@ namespace sanCore
                         }
                         break;
 
-                    case "clear":
-                        Console.Clear();
-                        break;
+
 
                     case "hello":
                         Console.WriteLine("Hello User! Thanks for using sanCore!");
@@ -245,32 +273,43 @@ namespace sanCore
                         }
                         break;
 
+                    case "adminlogout":
+                        isAdminLoggedIn = false;
+                        Console.WriteLine("Admin logged out.");
+                        break;
+
 
                     case "info":
 
-                        Console.WriteLine("sanCore Operating System");
-                        Console.WriteLine("Version: " + kernel.version);
-                        Console.WriteLine("Created by: SanDigitals");
-
-                        long totalRAM = Cosmos.Core.CPU.GetAmountOfRAM();
-                        Console.WriteLine("System RAM: " + totalRAM + " bytes (" + (totalRAM / (1024 * 1024)) + " MB)");
-
-                        string rootDrive = "0";
-                        long totalSize = Sys.FileSystem.VFS.VFSManager.GetTotalSize(rootDrive);
-                        long freeSpace = Sys.FileSystem.VFS.VFSManager.GetTotalFreeSpace(rootDrive);
-
-                        Console.WriteLine("Root Drive Size: " + totalSize + " bytes (" + (totalSize / (1024 * 1024)) + " MB)");
-                        Console.WriteLine("Root Drive Free Space: " + freeSpace + " bytes (" + (freeSpace / (1024 * 1024)) + " MB)");
+                        Console.WriteLine("sanCore Operating System:");
+                        Console.WriteLine("Version " + kernel.version);
+                        Console.WriteLine("Created by SanDigitals");
                         break;
 
 
                     case "AI":
-                        ActivateAI();
+                        if (isAdminLoggedIn)
+                        {
+                            ActivateAI();
+                        }
+                        else
+                        {
+                            Console.WriteLine("You need admin access to use this command.");
+                        }
                         break;
 
-                        case "ai":
-                        ActivateAI();
+
+                    case "ai":
+                        if (isAdminLoggedIn)
+                        {
+                            ActivateAI();
+                        }
+                        else
+                        {
+                            Console.WriteLine("You need admin access to use this command.");
+                        }
                         break;
+
 
 
                     case "help":
