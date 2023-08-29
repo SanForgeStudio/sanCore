@@ -64,4 +64,3 @@ The operating system in action:
 
 ## Dependencies
 - [Cosmos](https://github.com/Cosmos) (Powered by)
-- OpenAI (WIP)
