@@ -36,7 +36,7 @@ Here are a bunch of features that currently reside in sanCore.
 
 - **Interactive Help:** Access help with `help` for command information.
 
-- **Admin Access:** Elevate privileges using `adminaccess` for administrative functions such as accessing more network systems.
+- **Admin Access:** Elevate privileges using `adminaccess` for administrative functions such as accessing more network systems. Or using the AI System
 
 - **AI Interaction:** Engage with an simple AI using `AI` for responses to queries.
 
