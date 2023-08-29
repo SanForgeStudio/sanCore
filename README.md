@@ -49,6 +49,17 @@ Here are a bunch of features that currently reside in sanCore.
 
 ## Media
 
+The operating system in action:
+
+<div></div>
+
+<img width="248" alt="Annotation 2023-08-29 103438" src="https://github.com/sanDigitals/sanCore/assets/97965051/6fb7a828-9d65-4eda-90be-3c3d40f2f768">
+
+
+</div>
+<div>
+<img width="414" alt="showcase" src="https://github.com/sanDigitals/sanCore/assets/97965051/940dbb14-2958-4816-bb24-0e46783d299f">
+</div>
 
 
 ## Dependencies
