@@ -44,15 +44,9 @@ Here are a bunch of features that currently reside in sanCore, sanCore is still 
 
 The operating system in action:
 
-<div></div>
+![sancore1](https://github.com/user-attachments/assets/36e5a46e-f4ae-4c1f-b50b-77313371dda0)
 
-<img width="248" alt="Annotation 2023-08-29 103438" src="https://github.com/sanDigitals/sanCore/assets/97965051/6fb7a828-9d65-4eda-90be-3c3d40f2f768">
-
-
-</div>
-<div>
-<img width="414" alt="showcase" src="https://github.com/sanDigitals/sanCore/assets/97965051/940dbb14-2958-4816-bb24-0e46783d299f">
-</div>
+https://github.com/user-attachments/assets/05e51350-f1e0-4cfe-ba10-909e10ff0f7c
 
 
 ## Dependencies
