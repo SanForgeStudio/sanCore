@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using Sys = Cosmos.System;
 using System.IO;
 using sanCore;
+using sanCore.commands;
 
 namespace sanCore.core
 {
@@ -19,6 +20,20 @@ namespace sanCore.core
             var input = Console.ReadLine();
             CommandHistory.Add(input);
             string cmd = input.Split(" ")[0];
+
+            // If writing, allow 'note stop' and 'note read', otherwise treat as note content
+            if (NoteManager.IsWriting())
+            {
+                if (input.StartsWith("note stop") || input.StartsWith("note read"))
+                {
+                    // Fall through to switch-case to handle these commands
+                }
+                else
+                {
+                    NoteManager.WriteLine(input);
+                    return;
+                }
+            }
 
             switch (cmd)
             {
@@ -51,7 +66,7 @@ namespace sanCore.core
                     break;
 
                 case "clock": // works
-                    sanCore.core.ClockManager.ShowClock();
+                    ClockManager.ShowClock();
                     break;
 
 
@@ -68,6 +83,25 @@ namespace sanCore.core
                     HardwareProfiler.RunSystemCheck();
                     break;
 
+                case "cd": // works but needs way to exit cd mode
+                    if (input.Contains(" "))
+                    {
+                        if (!input.EndsWith(" "))
+                        {
+                            var targetDir = input.Split(" ")[1];
+                            cd.changedir(targetDir);
+                        }
+                        else
+                        {
+                            Kernel.error("No path in argument. Usage: cd 'path'");
+                        }
+                    }
+                    else
+                    {
+                        Directory.SetCurrentDirectory("0:\\");
+                    }
+                    break;
+
 
                 case "author": // works
                     Console.WriteLine("");
@@ -77,38 +111,26 @@ namespace sanCore.core
                     Console.WriteLine("");
                     break;
 
-                case "help": // works
-                    if (input.Contains(" "))
-                    {
-                        if (input.EndsWith(" "))
-                        {
-                            Kernel.error("no page specified. Select a page 1-3");
-                        }
-                        else
-                        {
-                            var helpPage = input.Split(" ")[1];
-                            switch (helpPage)
-                            {
-                                case "1":
-                                    Console.WriteLine("Power Commands\n--------------\nshutdown: Turns the OS and computer off.\n\nreboot: Reboots the computer.\n\nConsole Commands\n----------------\nreinit: Reinitializes the OS (pseudo-reboot).\n\nclear: Clears the console.\n\necho (message): Prints the specified message to the console.\n\ntheme (themeID): Changes the theme of the console.");
-                                    break;
-                                case "2":
-                                    Console.WriteLine("Filesystem Commands\n-------------------\nls: Shows all subdirectories and files within current directory.\n\ncd (path): Changes current directory to specified path.\n\nrm (path): Removes specified directory or file.\n\nmkdir (path): Creates new directory in specified path.\n\ntouch (path): Creates new file in specified path.\n\ncat (path): Prints all the lines of specified file.\n\ngrep (pattern) (path): type grep -h for more information.");
-                                    break;
-                                case "3":
-                                    Console.WriteLine("WIP filesystem commands\n-----------------------\nwrite (path) (text): Writes specified text to file.\n\nwriteline (path) (text): Creates new line and writes text.\n\nOther Commands\n--------------\nbeep (frequency): Plays a sound.");
-                                    break;
-                                default:
-                                    Kernel.error(helpPage + " isn't a help page, select 1-3");
-                                    break;
-                            }
-                        }
-                    }
-                    else
-                    {
-                        Kernel.error("no page specified. select 1-3");
-                    }
+                case "help":
+                    Console.WriteLine("Available Commands:");
+                    Console.WriteLine("-------------------");
+                    Console.WriteLine("shutdown       - Turns off the computer.");
+                    Console.WriteLine("reboot         - Restarts the computer.");
+                    Console.WriteLine("hello          - Greets the user.");
+                    Console.WriteLine("adminaccess    - Enables admin mode.");
+                    Console.WriteLine("adminlogout    - Disables admin mode.");
+                    Console.WriteLine("touch (path)   - Creates a file at specified path.");
+                    Console.WriteLine("clock          - Displays current system clock.");
+                    Console.WriteLine("clear          - Clears the console.");
+                    Console.WriteLine("echo (text)    - Prints the text to the console.");
+                    Console.WriteLine("syscheck       - Runs system diagnostics.");
+                    Console.WriteLine("author         - Shows the author information.");
+                    Console.WriteLine("say (text)     - Makes the OS say something.");
+                    Console.WriteLine("uptime         - Shows system uptime.");
+                    Console.WriteLine("history        - Displays previously entered commands.");
+                    Console.WriteLine("cd             - Changes current directory to specified path.");
                     break;
+
 
                 case "say": // works
                     string sayMsg = input.Remove(0, input.IndexOf(' ') + 1);
