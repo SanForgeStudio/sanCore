@@ -7,7 +7,7 @@
 #
 
 <br/>
-<b>sanCore</b> is a lightweight, command-driven operating system built on the COSMOS framework. Designed for simplicity, speed, and modularity, sanCore can run directly on real hardware and delivers a focused CLI experience. It’s an ever-growing system, continually expanding with new features and tools to empower users with full control.<br/>
+<b>sanCore</b> is a lightweight, CLI Operating System built on the COSMOS framework made using C#. Designed for simplicity, speed, and modularity, sanCore can run directly on real hardware and delivers a focused CLI experience. It’s an ever-growing system, continually expanding with new features and tools to empower users with full control.<br/>
 
 
 ## Features
@@ -24,11 +24,20 @@ Here are a bunch of features that currently reside in sanCore, sanCore is still 
 
 - **Error Handling:** Receive user friendly error messages.
 
-- **Efficient File Management:** Copy, move, and manage files effortlessly. (WIP)
-
 - **User Friendly Terminal:** Interact with an intuitive text based environment.
 
 - **Bare Metal Hardware Support:** This OS can be booted onto real hardware.
+
+## Future
+
+- **GUI & Graphics:** Simple UI and Graphics system.
+
+- **Efficient File Management:** Copy, move, and manage files effortlessly.
+  
+- **Simple Notepad System:** Notepad System.
+
+- **Better Hardware Profiling:** See ram usage, and other hardware profiling. (WIP)
+
 
 
 ## Media
