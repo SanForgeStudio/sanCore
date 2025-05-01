@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sanCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36a935c572993ad0c94ef738e85f4ba797bdc8f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12b3cf03432feef7e2f7ae3d3c3fc33e2371c888")]
 [assembly: System.Reflection.AssemblyProductAttribute("sanCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sanCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

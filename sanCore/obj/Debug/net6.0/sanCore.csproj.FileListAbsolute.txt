@@ -1,0 +1,13 @@
+C:\Users\sgjke\Desktop\sanCore\sanCore\bin\Debug\net6.0\sanCore.deps.json
+C:\Users\sgjke\Desktop\sanCore\sanCore\bin\Debug\net6.0\sanCore.dll
+C:\Users\sgjke\Desktop\sanCore\sanCore\bin\Debug\net6.0\sanCore.pdb
+C:\Users\sgjke\Desktop\sanCore\sanCore\obj\Debug\net6.0\sanCore.csproj.AssemblyReference.cache
+C:\Users\sgjke\Desktop\sanCore\sanCore\obj\Debug\net6.0\sanCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sgjke\Desktop\sanCore\sanCore\obj\Debug\net6.0\sanCore.AssemblyInfoInputs.cache
+C:\Users\sgjke\Desktop\sanCore\sanCore\obj\Debug\net6.0\sanCore.AssemblyInfo.cs
+C:\Users\sgjke\Desktop\sanCore\sanCore\obj\Debug\net6.0\sanCore.csproj.CoreCompileInputs.cache
+C:\Users\sgjke\Desktop\sanCore\sanCore\obj\Debug\net6.0\sanCore.sourcelink.json
+C:\Users\sgjke\Desktop\sanCore\sanCore\obj\Debug\net6.0\sanCore.dll
+C:\Users\sgjke\Desktop\sanCore\sanCore\obj\Debug\net6.0\refint\sanCore.dll
+C:\Users\sgjke\Desktop\sanCore\sanCore\obj\Debug\net6.0\sanCore.pdb
+C:\Users\sgjke\Desktop\sanCore\sanCore\obj\Debug\net6.0\ref\sanCore.dll

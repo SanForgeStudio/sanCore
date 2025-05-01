@@ -20,7 +20,7 @@
         <CompileVBEMultiboot>False</CompileVBEMultiboot>
         <RemoveBootDebugOutput>True</RemoveBootDebugOutput>
         <DebugEnabled>False</DebugEnabled>
-        <Timeout>5</Timeout>
+        <Timeout>2</Timeout>
         <AllowComments>False</AllowComments>
         <OptimizationLevel>1</OptimizationLevel>
         <OutputType>Library</OutputType>
