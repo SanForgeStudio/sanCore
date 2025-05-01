@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sgjke\\Desktop\\sanCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|c:\\users\\sgjke\\desktop\\sancore\\sancore\\sancore.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|solutionrelative:sancore\\sancore.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|c:\\users\\sgjke\\desktop\\sancore\\sancore\\kernel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|solutionrelative:sancore\\kernel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|c:\\users\\sgjke\\desktop\\sancore\\sancore\\core\\hardwareprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|solutionrelative:sancore\\core\\hardwareprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|c:\\users\\sgjke\\desktop\\sancore\\sancore\\core\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|solutionrelative:sancore\\core\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|c:\\users\\sgjke\\desktop\\sancore\\sancore\\commands\\commandhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|solutionrelative:sancore\\commands\\commandhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|c:\\users\\sgjke\\desktop\\sancore\\sancore\\core\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|solutionrelative:sancore\\core\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|c:\\users\\sgjke\\desktop\\sancore\\sancore\\core\\clockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15E1891C-AD81-4ECA-B9C5-994447F0AD21}|sanCore\\sanCore.csproj|solutionrelative:sancore\\core\\clockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CommandHistory.cs",
+              "DocumentMoniker": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\commands\\CommandHistory.cs",
+              "RelativeDocumentMoniker": "sanCore\\commands\\CommandHistory.cs",
+              "ToolTip": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\commands\\CommandHistory.cs",
+              "RelativeToolTip": "sanCore\\commands\\CommandHistory.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:23:29.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\core\\Manager.cs",
+              "RelativeDocumentMoniker": "sanCore\\core\\Manager.cs",
+              "ToolTip": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\core\\Manager.cs",
+              "RelativeToolTip": "sanCore\\core\\Manager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:22:56.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HardwareProfiler.cs",
+              "DocumentMoniker": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\core\\HardwareProfiler.cs",
+              "RelativeDocumentMoniker": "sanCore\\core\\HardwareProfiler.cs",
+              "ToolTip": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\core\\HardwareProfiler.cs",
+              "RelativeToolTip": "sanCore\\core\\HardwareProfiler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:22:50.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\core\\Command.cs",
+              "RelativeDocumentMoniker": "sanCore\\core\\Command.cs",
+              "ToolTip": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\core\\Command.cs",
+              "RelativeToolTip": "sanCore\\core\\Command.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:22:46.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClockManager.cs",
+              "DocumentMoniker": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\core\\ClockManager.cs",
+              "RelativeDocumentMoniker": "sanCore\\core\\ClockManager.cs",
+              "ToolTip": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\core\\ClockManager.cs",
+              "RelativeToolTip": "sanCore\\core\\ClockManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:22:42.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sanCore",
+              "DocumentMoniker": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\sanCore.csproj",
+              "RelativeDocumentMoniker": "sanCore\\sanCore.csproj",
+              "ToolTip": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\sanCore.csproj",
+              "RelativeToolTip": "sanCore\\sanCore.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-01T14:21:42.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Kernel.cs",
+              "DocumentMoniker": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\Kernel.cs",
+              "RelativeDocumentMoniker": "sanCore\\Kernel.cs",
+              "ToolTip": "C:\\Users\\sgjke\\Desktop\\sanCore\\sanCore\\Kernel.cs",
+              "RelativeToolTip": "sanCore\\Kernel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:21:30.532Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

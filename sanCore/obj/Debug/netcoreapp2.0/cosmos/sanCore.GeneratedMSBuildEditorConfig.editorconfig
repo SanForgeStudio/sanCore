@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = sanCore
-build_property.ProjectDir = C:\Users\Sander\Desktop\sanCore\sanCore\
+build_property.ProjectDir = C:\Users\sgjke\Desktop\sanCore\sanCore\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
