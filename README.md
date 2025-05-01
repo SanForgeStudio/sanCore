@@ -14,8 +14,6 @@
 
 Here are a bunch of features that currently reside in sanCore, sanCore is still a simple yet fun system.
 
-- **Command Line Interface (CLI):** Execute various commands to interact with the operating system, and perform system operations.
-
 - **Information Display:** Retrieve system details.
 
 - **System Operations:** Perform actions like shutting down and rebooting.
